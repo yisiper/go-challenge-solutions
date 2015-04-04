@@ -1,0 +1,5 @@
+Something learn from others code 
+
+* Interface io.Reader is very useful while working on streams of []byte
+* Make it simple, no one definition per file (java or ***very strong*** OOP style)
+* It's odd to have both little-endian and big-endian in one binary file
