@@ -1,0 +1,16 @@
+Submitted on April 4, 2015
+
+Notes:
+
+Packages should have a better, non ambiguous comments as documentation.
+
+Go tool running
+	gofmt -w "file" : format and replace file
+	golint "file"	: golint complains about
+		no comment in exported method
+		comment in exported method should start with method name
+		if else block with return statement in if{}
+	go vet "file"	: go vet complains about
+		"Println call ends with newline"
+		fmt.Println("\n")
+

@@ -1,5 +1,8 @@
-Something learn from others code 
+
+Submitted on March 2, 2015.
+
+Something learn from other's code 
 
 * Interface io.Reader is very useful while working on streams of []byte
-* Make it simple, no one definition per file (java or ***very strong*** OOP style)
+* Make it simple, no one definition per file (like java)
 * It's odd to have both little-endian and big-endian in one binary file
